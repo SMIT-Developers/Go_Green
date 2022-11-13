@@ -1,0 +1,43 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+#banner
+{
+	background:linear-gradient(rgba(0,0,0,0.01),#000000),url(people.jpg);
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+	
+}
+.banner-text{
+	text-align:center;
+	color:#ACACAC;
+	padding-top:200px;
+	
+}
+.banner-text h1{
+	font-size:100px;
+	
+	
+}
+.banner-text p{
+	font-size:40px;
+	font-style:italic;
+}
+.button{
+	position:center;
+	border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+
+}

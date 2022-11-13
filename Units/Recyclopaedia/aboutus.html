@@ -1,0 +1,186 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel ="stylesheet" href="aboutus.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.h2{
+color:#00A86B;
+font-size:50px;
+text-align:center;
+}
+
+/* Caption text */
+.text {
+  color: white;
+  font-size: 50px;
+ 
+  position: absolute;
+  font-face:Ubuntu;
+  color:w;
+  bottom: 8px;
+  width: 100%;
+  text-align: justify;
+}
+.text1 {
+  color: white;
+  font-size: 100px;
+ 
+  position: absolute;
+  font-face:-apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;
+  padding-top: 100px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  
+  bottom: 50px;
+  width: 100%;
+  text-align:center;
+}
+
+/* Number text (1/6 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration:5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body >
+
+
+<h2 class="h2"><b>Let's Change the World!</b></h2>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 6</div>
+  <img src="girls.jpg" style="width:100%" >
+  <div class="text" >We are the Go Green Industries,with our utmost objective to make the world a better place!</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <img src="hands.jpg" style="width:100%">
+  <div class="text">Started as a teeny idea,hoping to grow just like the nature around us !</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 6</div>
+  <img src="recycle.jpg " style="width:100%" >
+  <div class="text">Recycling and selling was our core idea  </div>
+</div>
+
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="last 2.jpg" style="width:100%">
+  <div class="text">Until<br> we launched <br><br>our <i>Recyclopaedia</i><br><br>to promote the idea<br> of RECYCLING to the world !</div>
+</div>
+
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">5 / 6</div>
+  <img src="bulb.jpg" style="width:100%">
+  <div class="text"><br>
+  <br>
+  We <br>are <br>ready to<br> GO GREEN</div>
+</div>
+
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">6 / 6</div>
+  <img src="last.jpg" style="width:100%">
+  <div class ="text1">Are You ?</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every  seconds
+}
+</script>
+
+</body>
+</html>

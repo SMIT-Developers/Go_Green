@@ -1,0 +1,82 @@
+:root{
+
+    --headerColor:#104D18;
+    --borderColor:#187428;
+    --mainColor:#25b33e;
+    --extraColor:#156724;
+    --buttonColor:#32f355;
+
+
+}
+*{
+    font-family: "RobotoMono";
+}
+
+
+.table-responsive{
+    text-align: center;
+}
+#ViewAccount{
+    float: left;
+}
+
+/*
+dashboard
+ */
+
+.countsInfo{
+    background-color: white;
+
+
+}
+
+.countsInfo .card-deck .card{
+    border: 2px solid var(--headerColor);
+}
+
+
+.countsInfo .card .card-header{
+    background-color: var(--headerColor);
+}
+
+
+
+
+
+.card-body .table{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.card .card-body{
+    background-color: var(--mainColor);
+}
+
+.card .card-header h4{
+    color: white;
+
+}
+
+/*
+all buttons (expect add buttons)
+ */
+
+
+/*
+search drop down list
+
+.search-dropdown-list{
+    display: block;
+    color: var(--buttonColor);
+    background-color: var(--extraColor);
+
+    transition: 0.3s all ease-in-out;
+
+}
+ */
+
+.add-btn{
+    background-color: var(--buttonColor);
+    color: black;
+    float: right;
+}

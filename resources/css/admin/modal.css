@@ -1,0 +1,44 @@
+:root{
+
+    --headerColor:#0D0D0D;
+    --borderColor:#F2F2F2;
+    --mainColor:#25B8D9;
+    --extraColor:#0388A6;
+    --buttonColor:#03588C;
+
+
+}
+
+
+.modal-header{
+    background-color: var(--headerColor);
+    color: white;
+}
+
+.modal-footer{
+    background-color: var(--headerColor);
+    color: white;
+}
+
+
+.btn{
+    color: white;
+}
+
+card .card-img-top{
+    width: 100px;
+    height: 200px;
+}
+
+#cardPartOne, #cardPartTwo{
+    background-color: var(--headerColor);
+}
+
+#cardPartOne .card-body, #cardPartTwo .card-body {
+    background-color: var(--headerColor);
+    color: white;
+}
+
+.was-validated{
+    border: none;
+}

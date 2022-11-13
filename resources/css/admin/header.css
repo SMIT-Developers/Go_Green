@@ -1,0 +1,133 @@
+:root{
+
+    --headerColor:#104D18;
+    --borderColor:#187428;
+    --mainColor:#25b33e;
+    --extraColor:#156724;
+    --buttonColor:#32f355;
+
+
+}
+/*
+
+main links -top five
+group-links are in main
+
+
+ */
+
+*{
+    font-family: RobotoMono, serif;
+}
+
+#header-top{
+    width: 20%;
+    min-height: 5vh;
+}
+
+#nav-dashboard{
+    /*  background-color: red;*/
+    color: var(--headerColor);
+}
+
+.admin-nav{
+    width: 220px;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: var(--headerColor);
+    transition: 0.3s all ease-in-out;
+}
+
+
+.admin-main-link{
+    background-color:var(--mainColor);
+    color: var(--extraColor);
+
+}
+
+.admin-main-link:hover{
+    background-color: var(--headerColor);
+}
+
+.nav-active{
+    background-color: var(--headerColor);
+}
+
+
+.user-group , .feedback-group , .resources-group, .stock-group {
+    display: none;
+
+}
+
+.remove-hidden{
+    display: inline;
+    background-color: var(--extraColor);
+    color: var(--borderColor);
+
+
+    transition: 0.3s all ease-in-out;
+
+}
+
+
+.user-group a , .resources-group a , .feedback-group a, .stock-group  a{
+    color: var(--borderColor);
+    background-color: var(--extraColor);
+}
+
+.user-group:hover, .resources-group:hover , .feedback-group:hover, .stock-group:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.animate{
+    width: 0;
+    transition: 0.3s all ease-in-out;
+}
+
+
+
+.sub-link:hover{
+    background-color: white;
+    color:black;
+}
+
+.admin-image{
+    width: 50%;
+    height: 50%;
+}
+
+
+#listGroup a{
+    background-color:var(--mainColor) ;
+    color: white;
+}
+
+#nav-stock-list a, #nav-user-list a, #nav-stock-list a, #nav-feedback-list a, #nav-resources-list a{
+    background-color:var(--extraColor) ;
+    color: white;
+    height: 80%;
+}
+
+
+.list-group a:hover{
+    background-color: var(--buttonColor);
+    color: var(--extraColor);
+}
+
+.admin-nav h4{
+    color: var(--mainColor);
+}
+
+/*
+header top
+ */
+
+#header-top{
+    background-color: var(--extraColor);
+}
+
+#ViewAccount{
+    background-color: var(--buttonColor);
+}

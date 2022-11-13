@@ -1,0 +1,20 @@
+/* Color Theme Swatches in Hex */
+.Control-Room-1-hex { color: #03588C; }
+.Control-Room-2-hex { color: #0388A6; }
+.Control-Room-3-hex { color: #25B8D9; }
+.Control-Room-4-hex { color: #F2F2F2; }
+.Control-Room-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in RGBA */
+.Control-Room-1-rgba { color: rgba(2, 87, 140, 1); }
+.Control-Room-2-rgba { color: rgba(3, 135, 165, 1); }
+.Control-Room-3-rgba { color: rgba(36, 183, 216, 1); }
+.Control-Room-4-rgba { color: rgba(242, 242, 242, 1); }
+.Control-Room-5-rgba { color: rgba(12, 12, 12, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Control-Room-1-hsla { color: hsla(202, 96, 28, 1); }
+.Control-Room-2-hsla { color: hsla(191, 96, 33, 1); }
+.Control-Room-3-hsla { color: hsla(191, 70, 49, 1); }
+.Control-Room-4-hsla { color: hsla(0, 0, 95, 1); }
+.Control-Room-5-hsla { color: hsla(0, 0, 5, 1); }

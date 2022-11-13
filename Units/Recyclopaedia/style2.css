@@ -1,0 +1,12 @@
+body
+{
+	background-image:url(table.jpg);
+
+	background-repeat:no-repeat;
+	position: absolute;
+	background-size:cover;
+	background-position:center;
+	box-sizing:border-box;
+	font-family:sans-serif;
+	
+}

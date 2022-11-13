@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="PHP Strom" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" singleton="false" is_https="true" server_name="PHP Strom Server" start_url="/index.php">
+    <method v="2" />
+  </configuration>
+</component>

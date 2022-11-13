@@ -1,0 +1,117 @@
+/******************************************/
+/* hero styles goes here*/
+/*****************************************/
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background: url("../../images/blog_hero.JPG") no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .hero-items {
+  width: 100%;
+  background-color: rgba(28, 209, 49, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero .hero-items h3 {
+  color: #fff;
+  font-size: 50pt;
+}
+
+@media screen and (max-width: 768px) {
+  .hero .hero-items h3 {
+    font-size: 32pt;
+  }
+}
+
+.hero .hero-items .subtitle-blog {
+  width: 80%;
+  color: white;
+  text-align: center;
+  font-size: 22pt;
+}
+
+@media screen and (max-width: 768px) {
+  .hero .hero-items .subtitle-blog {
+    font-size: 18pt;
+  }
+}
+
+/*********************************************/
+/* hero styles ends here*/
+/*********************************************/
+.latest-blog {
+  padding: 5%;
+}
+
+.search {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1rem 0;
+}
+
+.search #searchbox {
+  width: 35%;
+  min-width: 200px;
+  border: 2px solid #0B7918;
+  border-radius: 0;
+  height: 2rem;
+  padding: 12px;
+  margin-right: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #fff;
+  color: black;
+}
+
+.search #searchbox:focus {
+  outline: none;
+}
+
+.search .search-btn {
+  background-color: #0B7918;
+  padding: auto 5px;
+  min-width: 80px;
+  border: none;
+  color: #fff;
+  font-size: 14pt;
+}
+/*# sourceMappingURL=blog-style.css.map */
